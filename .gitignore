@@ -1,2 +1,5 @@
 local.py
 *.pyc
+tracker/
+db/test*
+db/development*
