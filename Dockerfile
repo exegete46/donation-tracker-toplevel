@@ -10,7 +10,6 @@ RUN mkdir -p /usr/src/app/db
 
 ADD ./tracker/requirements.txt /tracker-requirements.txt
 RUN ["pip", "install", "-r", "/tracker-requirements.txt"]
-RUN ["pip", "install", "django-paypal"]
 
 WORKDIR /usr/src/app
 
