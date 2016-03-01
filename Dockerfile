@@ -1,7 +1,6 @@
 FROM ubuntu:14.04
 
-RUN apt-get update
-RUN apt-get install -qqyf \
+RUN apt-get update && apt-get install -qqyf \
   ca-certificates \
   g++ \
   gcc \
